@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   randomizer() {
-    var rng = Math.floor(Math.random() * 2);
+    var rng = Math.floor(Math.random() * 25);
     store.dispatch({
       type: 'RANDOMIZER',
       animeName: quotes[rng].animeName,
