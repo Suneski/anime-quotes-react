@@ -1,6 +1,10 @@
 import { createStore } from 'redux';
 import quotes from './Quotes.js';
 
+const actions = {
+  RANDOMIZER: 'RANDOMIZER',
+}
+
 var initialState = {
   text: "Click the button for a random anime quote",
 };
@@ -8,7 +12,7 @@ var initialState = {
 const reducer = (state = initialState, action) => {
 
   switch (action.type) {
-    case 'RANDOMIZER':
+    case actions.RANDOMIZER:
       return {  animeName: action.animeName,
                 character: action.character,
                 quote: action.quote,
