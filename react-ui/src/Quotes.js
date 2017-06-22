@@ -44,8 +44,8 @@ const quotes = [
   {
     animeName: 'Rakudai Kishi no Cavalry (Chivalry of a Failed Knight)',
     character: 'Ikki Kurogane',
-    quote: 'https://media.giphy.com/media/l2YOhkWBeS2hWJuAU/giphy.gif',
-    gif: 'In order for a mediocre man to defeat a genius, he has to become a monster.'
+    quote: 'In order for a mediocre man to defeat a genius, he has to become a monster.',
+    gif: 'https://media.giphy.com/media/l2YOhkWBeS2hWJuAU/giphy.gif'
   },
   {
     animeName: 'Akatsuki no Yona (Yona of the Dawn)',
@@ -135,7 +135,7 @@ const quotes = [
     animeName: 'Hachimitsu to Clover (Honey and Clover)',
     character: 'Yuuta Takemoto',
     quote: "As time passes, the day will come when everything will fade to memories. But those miraculous days, when you and I, along with everyone else, searched together for just that one thing, will continue revolving forever somewhere deep in my heart, as my bittersweet memory.",
-    gif: ''
+    gif: 'https://media.giphy.com/media/3otO6u9lPP0HyCFZio/giphy.gif'
   },
   {
     animeName: 'Cowboy Bebop',
