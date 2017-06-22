@@ -30,6 +30,12 @@ const quotes = [
     gif: 'https://myanimelist.cdn-dena.com/s/common/uploaded_files/1458018787-b9f502fa1d2b50b32d801836db79f8ee.gif'
   },
   {
+    animeName: 'Fullmetal Alchemist',
+    character: 'Edward Elric',
+    quote: "A lesson without pain is meaningless. For you cannot gain something without sacrificing something else in return. But once you have recovered it and made it your own... You will gain an irreplaceable Fullmetal heart.",
+    gif: 'https://media.giphy.com/media/l2YOrMjSfG8Taql7a/giphy.gif'
+  },
+  {
     animeName: 'Gintama',
     character: 'Gintoki Sakata',
     quote: 'The country? The skies? You can have them. I’m busy just protecting what’s right in front of me. I don’t know what’ll happen to me in the future, but if something has fallen at my feet, then the least I can do is pick it up.',
