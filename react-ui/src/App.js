@@ -3,6 +3,8 @@ import quotes from './Quotes.js';
 import store from './Store.js';
 import './App.css';
 
+
+
 class App extends Component {
   constructor() {
     super();
