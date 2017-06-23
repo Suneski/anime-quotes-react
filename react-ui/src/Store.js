@@ -7,6 +7,8 @@ const actions = {
 
 var initialState = {
   text: "Click the button for a random anime quote",
+  welcome: "welcome-visible",
+  result: "result-invisible"
 };
 
 const reducer = (state = initialState, action) => {
@@ -16,7 +18,9 @@ const reducer = (state = initialState, action) => {
       return {  animeName: action.animeName,
                 character: action.character,
                 quote: action.quote,
-                image: action.image
+                image: action.image,
+                welcome: action.welcome,
+                result: action.result
               }
     default: return state
   }

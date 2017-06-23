@@ -72,6 +72,35 @@ h1 {
   font-family: 'Righteous', cursive;
 }
 
+.welcome-visible {
+  font-family: 'Oleo Script', cursive;
+  height: 602px;
+  text-align: center;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.welcome-invisible {
+  display: none;
+}
+
+.welcome {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.welcome-message {
+  font-size: 30px;
+}
+
+.result-visible {
+  display: block;
+}
+
+.result-invisible {
+  display: none;
+}
+
 .result {
   width: 800px;
   margin: 0 auto;
@@ -111,4 +140,21 @@ button {
 
 button:focus {
   outline: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+footer a {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+footer a:hover {
+  color: grey;
 }
