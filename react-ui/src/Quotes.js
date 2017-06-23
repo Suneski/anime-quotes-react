@@ -4,7 +4,7 @@ const quotes = [
   {
     animeName: 'Fate/stay night: Unlimited Blade Works',
     character: 'Archer',
-    quote: 'I am the bone of my sword\nSteel is my body and fire is my blood\nI have created over a thousand blades\nUnknown to Death, Nor known to Life\nHave withstood pain to create many weapons\nYet, those hands will never hold anything\nSo as I pray, Unlimited Blade Works.',
+    quote: 'I am the bone of my sword. Steel is my body and fire is my blood. I have created over a thousand blades. Unknown to Death, Nor known to Life. Have withstood pain to create many weapons. Yet, those hands will never hold anything. So as I pray, Unlimited Blade Works.',
     image: images[0]
   },
   {
@@ -106,7 +106,7 @@ const quotes = [
   {
     animeName: 'Ghost in the Shell 2: Innocence',
     character: 'Motoko Kusanagi',
-    quote: "We weep for the blood of a bird, but not for the blood of a fish. Blessed are those with a voice. If the dolls could speak, no doubt they'd scream, \"I didn't want to become human.",
+    quote: "We weep for the blood of a bird, but not for the blood of a fish. Blessed are those with a voice. If the dolls could speak, no doubt they'd scream, \"I didn't want to become human.\"",
     image: images[17]
   },
   {
