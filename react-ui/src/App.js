@@ -22,7 +22,7 @@ class App extends Component {
       animeName: quotes[rng].animeName,
       character: quotes[rng].character,
       quote: quotes[rng].quote,
-      gif: quotes[rng].gif
+      image: quotes[rng].image
     })
   }
 
@@ -30,7 +30,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <img src={this.state.gif} alt="anime gif"/>
+        <img src={this.state.image} alt="anime image"/>
         <pre>{this.state.quote}</pre>
         <p>- {this.state.character}</p>
         <button onClick={() => this.randomizer()}>RANDOM</button>

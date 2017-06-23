@@ -16,7 +16,7 @@ const reducer = (state = initialState, action) => {
       return {  animeName: action.animeName,
                 character: action.character,
                 quote: action.quote,
-                gif: action.gif
+                image: action.image
               }
     default: return state
   }

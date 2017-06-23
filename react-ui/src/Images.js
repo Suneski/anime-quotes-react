@@ -7,12 +7,12 @@ import gildarts from './images/gildarts_clive.gif';
 import gintoki from './images/gintoki_sakata.gif';
 import hiluluk from './images/hiluluk.gif';
 import ikki from './images/ikki_kurogane.gif';
-import jaeha from './images/jae-ha.gif.gif';
+import jaeha from './images/jae-ha.gif';
 import kaitou from './images/kaitou_kuroba.gif';
 import kenshin from './images/kenshin_himura.gif';
 import kenshirou from './images/kenshirou.gif';
 import kino from './images/kino.gif';
-import kuu from './images/kuu.gif';
+import kuu from './images/kuu.png';
 import mikasa from './images/mikasa_ackerman.gif';
 import mitsuyoshi from './images/mitsuyoshi_anzai.gif';
 import motoko from './images/motoko_kusanagi.gif';
@@ -36,6 +36,7 @@ let images = [
   ikki,
   jaeha,
   kaitou,
+  kenshin,
   kenshirou,
   kino,
   kuu,
