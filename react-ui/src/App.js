@@ -53,7 +53,7 @@ class App extends Component {
           <button onClick={() => this.randomizer()}>RANDOM</button>
         </div>
         <footer>
-          Information taken from <a href="https://myanimelist.net/featured/1497/Top_25_Best_Anime_Quotes_of_All_Time" target="_blank">MyAnimeList</a>
+          Information from <a href="https://myanimelist.net/featured/1497/Top_25_Best_Anime_Quotes_of_All_Time" target="_blank">MyAnimeList</a>
         </footer>
       </div>
     );
