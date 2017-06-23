@@ -1,0 +1,15 @@
+@import 'reset';
+@import 'footer';
+@import 'result';
+@import 'title';
+@import 'welcome';
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script|Righteous');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('images/akihabara.jpg');
+  background-size: auto;
+}

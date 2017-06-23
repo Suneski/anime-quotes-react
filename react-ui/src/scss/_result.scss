@@ -1,0 +1,48 @@
+.result-visible {
+  display: block;
+}
+
+.result-invisible {
+  display: none;
+}
+
+.result {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.anime-image {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.quote-zone {
+  font-family: 'Oleo Script', cursive;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 10px 100px 0 100px;
+  text-align: justify;
+  font-size: 20px;
+  min-height: 180px;
+}
+
+.quote-source {
+  margin-top: 15px;
+}
+
+button {
+  display: block;
+  background-color: rgb(200, 0, 0);
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  margin: 0 auto 20px auto;
+}
+
+button:focus {
+  outline: 0;
+}

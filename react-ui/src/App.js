@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import quotes from './Quotes.js';
 import store from './Store.js';
 import welcome from './images/welcome.gif';
-import './index.css';
 
 
 
