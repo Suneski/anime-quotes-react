@@ -1,5 +1,4 @@
 import { createStore } from 'redux';
-import quotes from './Quotes.js';
 
 const actions = {
   RANDOMIZER: 'RANDOMIZER',

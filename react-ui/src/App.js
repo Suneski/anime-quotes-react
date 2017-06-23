@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import quotes from './Quotes.js';
 import store from './Store.js';
 import welcome from './images/welcome.gif';
-import './App.css';
+import './index.css';
 
 
 
@@ -37,14 +37,14 @@ class App extends Component {
         <div className="result">
           <div className={this.state.welcome}>
             <p className="welcome">WELCOME</p>
-            <img className="anime-image" src={welcome} />
+            <img className="anime-image" src={welcome} alt="anime welcome"/>
             <p className="welcome-message">Click the random button</p>
           </div>
           <div className={this.state.result}>
             <img
               src={this.state.image}
               className="anime-image"
-              alt="anime image"/>
+              alt="anime pic"/>
             <div className="quote-zone">
               <p className="quote">"{this.state.quote}"</p>
               <p className="quote-source">- {this.state.character} ({this.state.animeName})</p>
@@ -53,7 +53,7 @@ class App extends Component {
           <button onClick={() => this.randomizer()}>RANDOM</button>
         </div>
         <footer>
-          Information from <a href="https://myanimelist.net/featured/1497/Top_25_Best_Anime_Quotes_of_All_Time" target="_blank">MyAnimeList</a>
+          Information from <a href="https://myanimelist.net/featured/1497/Top_25_Best_Anime_Quotes_of_All_Time" target="_blank" rel="noopener noreferrer">MyAnimeList</a>
         </footer>
       </div>
     );
