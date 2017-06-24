@@ -117,7 +117,7 @@ h1 {
 
 .welcome-visible {
   font-family: 'Oleo Script', cursive;
-  height: 602px;
+  min-height: 500px;
   text-align: center;
   margin: 0 auto;
   width: 90%; }
@@ -142,16 +142,15 @@ body {
 @media (max-width: 850px) {
   .result {
     width: 95%;
-    height: 600px;
+    min-height: 600px;
     position: relative; }
   .anime-image {
     width: 90%;
     height: auto; }
   .quote-zone {
-    margin: 10px 5% 0 5%; }
+    margin: 10px 5% 20px 5%; }
   button {
     position: absolute;
     bottom: 0px;
-    width: 20%;
-    left: 40%;
-    right: 40%; } }
+    width: 25%;
+    left: 37.5%; } }
