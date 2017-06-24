@@ -141,7 +141,7 @@ body {
 
 @media (max-width: 850px) {
   .result {
-    width: 95%;
+    width: 80%;
     min-height: 600px;
     position: relative; }
   .anime-image {
@@ -155,3 +155,8 @@ body {
     bottom: 0px;
     width: 25%;
     left: 37.5%; } }
+
+@media (max-width: 550px) {
+  .anime-image {
+    width: 80%;
+    height: 250px; } }
