@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import quotes from './Quotes.js';
-import store from './Store.js';
+import { actions, store } from './Store.js';
 import welcome from './images/welcome.gif';
-
-
 
 class App extends Component {
   constructor() {
@@ -18,7 +16,7 @@ class App extends Component {
   randomizer() {
     var rng = Math.floor(Math.random() * 25);
     store.dispatch({
-      type: 'RANDOMIZER',
+      type: actions.RANDOMIZER,
       animeName: quotes[rng].animeName,
       character: quotes[rng].character,
       quote: quotes[rng].quote,
