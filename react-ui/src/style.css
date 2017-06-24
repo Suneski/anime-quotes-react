@@ -68,7 +68,7 @@ footer a:hover {
 
 .result {
   width: 800px;
-  margin: 0 auto; }
+  margin: 0 auto 20px auto; }
 
 .anime-image {
   width: 600px;
@@ -138,3 +138,20 @@ body {
   font-family: sans-serif;
   background-image: url("images/akihabara.jpg");
   background-size: auto; }
+
+@media (max-width: 850px) {
+  .result {
+    width: 95%;
+    height: 600px;
+    position: relative; }
+  .anime-image {
+    width: 90%;
+    height: auto; }
+  .quote-zone {
+    margin: 10px 5% 0 5%; }
+  button {
+    position: absolute;
+    bottom: 0px;
+    width: 20%;
+    left: 40%;
+    right: 40%; } }
